@@ -1,4 +1,4 @@
-console.log("hola");
+
 let board = document.querySelector(".board");
 let blackBtn = document.querySelector("#black-btn");
 let erasorBtn = document.querySelector("#erasor-btn");
@@ -59,7 +59,7 @@ function createGrid(size) {
   }
 }
 
-// cuando apreto click adentro del board deje de funcionar.
+
 
 function listenSetSize() {
   let input = prompt("set the size");
